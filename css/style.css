@@ -59,7 +59,7 @@ section {
 #trending {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     /*I can't figure out how to make space between the content. justify-content isn't working. Tried to add span but still isnt working*/
     /* justify-content: space-evenly; //using any of this isn't changing anything in the space between*/
 }
@@ -97,6 +97,7 @@ input {
 main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
 }
 
 nav button {
