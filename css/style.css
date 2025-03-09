@@ -11,13 +11,15 @@
   nav {
     background-color: white;
     padding: 8px 16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
   }
 
-  #destinations {
+  #destinations { /*this is the nav bar section on the left*/
     display: flex;
     height: 50px;
     gap: 20px;
@@ -26,7 +28,7 @@
     
   }
 
-  #actions {
+  #actions { /*this is the sign up and sign in section on the right*/
     display: flex;
     gap: 20px;
     align-items: center;
