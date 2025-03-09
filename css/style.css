@@ -57,6 +57,7 @@ section {
   } */
 
 #trending {
+    /* height: 100%; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -98,6 +99,18 @@ main {
     background-color: white;
     padding: 32px 72px;
     display: flex;
+    height: 100vh; /*full viewport height*/
+    flex-wrap: wrap; /*allowing multiple cards to wrap*/
+    gap: 2px; /*gap is the space between cards*/
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /*can't seem to figure out how to bring cards closer together on the page. I just need them a little bit closer to exactly mimick the webpage.*/
 }
 
 nav button {
@@ -118,6 +131,8 @@ nav button {
 
 .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card-footer * {
@@ -142,3 +157,11 @@ nav button {
     border-radius: 50px;
     padding: 6px 15px;
 }
+
+/*I got really close to mimicking the actual website. 
+After much research, I can't seem to figure out how to make 
+the spaces between the cards closer together. I manipulated 
+the gap between cards, I tried diff space around justify content
+techniques, just haven't figured that out. Also, haven't figured out
+how to create space between the content icons as well. Those are 
+the two things I couldn't figure out yet for this lesson.*/
